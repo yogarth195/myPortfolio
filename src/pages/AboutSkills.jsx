@@ -88,12 +88,12 @@ export const AboutMeSkills = () => {
 
         {/* Navigation Buttons */}
         <div className="flex justify-center mt-10 gap-6">
-          <button
+          {/* <button
             onClick={prev}
             className="bg-gray-100 px-4 py-2 rounded hover:bg-gray-200 transition"
           >
             ⬅ Previous
-          </button>
+          </button> */}
           <button
             onClick={next}
             className="bg-gray-100 px-4 py-2 rounded hover:bg-gray-200 transition"
