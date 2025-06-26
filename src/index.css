@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+@layer utilities {
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+}
+
+
+@font-face {
+  font-family: 'TheBoldFont';
+  src: url('/fonts/boldFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
