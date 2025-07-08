@@ -86,7 +86,7 @@ export const HomePage = () => {
           className="w-36 h-36 sm:w-48 sm:h-48 md:w-60 md:h-60 rounded-full overflow-hidden shadow-2xl border-4 border-white/20"
         >
           <img
-            src="/me.jpg"
+            src="/meme1.png"
             alt="Yogarth"
             className="w-full h-full object-cover scale-105"
           />
